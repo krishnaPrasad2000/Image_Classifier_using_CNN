@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block app_content %}
+ 
+    <div class="media-body" >
+     
+
+<a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{ url_for('login') }}" 
+        style="padding:10px 10px 50px 10px;border-radius: 20px;width: 250px; 
+        height: 50px ; font-size:xx-large;position:absolute;left:45px;top:100px;text-align: center;">Sign In</a><br>
+<a class="btn btn-secondary btn-sm mt-1 mb-1" 
+        style="padding:10px 10px 50px 10px;border-radius: 20px;width: 250px; 
+        height: 50px ;font-size:xx-large;position:absolute;left:45px;top:165px;text-align: center;" 
+        href="{{ url_for('register') }}">Sign Up</a>
+        
+        </div>
+  
+{% endblock %}  
